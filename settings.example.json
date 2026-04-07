@@ -1,0 +1,37 @@
+{
+  "// 說明": "複製此檔案為 ~/.claude/settings.json 並依需求調整",
+
+  "theme": "dark",
+
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(node:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)"
+    ]
+  },
+
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/hooks/post-edit-lint.sh"
+          }
+        ]
+      }
+    ]
+  },
+
+  "env": {
+    "CLAUDE_COMPACT_RATIO": "0.7"
+  }
+}
