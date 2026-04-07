@@ -20,7 +20,7 @@
 
 ### 新功能實作前
 
-1. **先規劃**：使用 `fe-planner` agent 建立實作計畫
+1. **先規劃**：使用 `fee-planner` agent 建立實作計畫
 2. **搜尋重用**：優先尋找現有實作或套件
 3. **TDD**：先寫測試，再寫實作
 
@@ -62,9 +62,9 @@ Types: feat, fix, refactor, docs, test, chore, perf, ci
 
 | Agent | 用途 | 觸發時機 |
 |-------|------|---------|
-| `fe-planner` | 功能規劃 | 複雜功能、重構 |
-| `fe-reviewer` | 程式碼審查 | 撰寫程式碼後 |
-| `fe-tdd` | 測試驅動開發 | 新功能、Bug 修復 |
+| `fee-planner` | 功能規劃 | 複雜功能、重構 |
+| `fee-reviewer` | 程式碼審查 | 撰寫程式碼後 |
+| `fee-tdd` | 測試驅動開發 | 新功能、Bug 修復 |
 
 ---
 
@@ -72,5 +72,5 @@ Types: feat, fix, refactor, docs, test, chore, perf, ci
 
 | Skill | 用途 |
 |-------|------|
-| `/fe-commit` | 產生符合規範的 commit message |
-| `/fe-pr` | 建立完整的 Pull Request |
+| `/fee:commit` | 產生符合規範的 commit message |
+| `/fee:pr` | 建立完整的 Pull Request |

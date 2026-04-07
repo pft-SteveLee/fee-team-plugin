@@ -13,7 +13,7 @@ echo ""
 
 # 建立必要目錄
 mkdir -p "$CLAUDE_DIR/agents"
-mkdir -p "$CLAUDE_DIR/skills"
+mkdir -p "$CLAUDE_DIR/skills/fee"
 mkdir -p "$CLAUDE_DIR/rules/fee-team"
 mkdir -p "$CLAUDE_DIR/hooks"
 
@@ -27,10 +27,10 @@ done
 
 # 安裝 Skills
 echo "📦 安裝 Skills..."
-for skill in "$PLUGIN_DIR/skills"/*.md; do
+for skill in "$PLUGIN_DIR/skills/fee"/*.md; do
   name=$(basename "$skill")
-  cp "$skill" "$CLAUDE_DIR/skills/$name"
-  echo "   ✓ skills/$name"
+  cp "$skill" "$CLAUDE_DIR/skills/fee/$name"
+  echo "   ✓ skills/fee/$name"
 done
 
 # 安裝 Rules
@@ -79,10 +79,10 @@ echo ""
 echo "✅ 安裝完成！"
 echo ""
 echo "已安裝的 Agents："
-echo "  - fe-planner  → 功能規劃"
-echo "  - fe-reviewer → 程式碼審查"
-echo "  - fe-tdd      → 測試驅動開發"
+echo "  - fee-planner  → 功能規劃"
+echo "  - fee-reviewer → 程式碼審查"
+echo "  - fee-tdd      → 測試驅動開發"
 echo ""
 echo "已安裝的 Skills："
-echo "  - /fe-commit  → 產生 commit message"
-echo "  - /fe-pr      → 建立 Pull Request"
+echo "  - /fee:commit → 產生 commit message"
+echo "  - /fee:pr     → 建立 Pull Request"

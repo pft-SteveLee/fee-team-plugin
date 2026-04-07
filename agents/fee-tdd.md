@@ -1,5 +1,5 @@
 ---
-name: fe-tdd
+name: fee-tdd
 description: 前端 TDD Agent。強制測試先行工作流，確保 React 元件、hooks 和工具函數都有完整測試。新功能或 Bug 修復時使用。
 ---
 

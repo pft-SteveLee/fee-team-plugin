@@ -15,12 +15,13 @@
 fee-team-plugin/
 ├── CLAUDE.md              # 全域指令（複製至 ~/.claude/CLAUDE.md）
 ├── agents/                # 自訂 Agents
-│   ├── fe-planner.md
-│   ├── fe-reviewer.md
-│   └── fe-tdd.md
-├── skills/                # 自訂 Skills
-│   ├── fe-commit.md
-│   └── fe-pr.md
+│   ├── fee-planner.md
+│   ├── fee-reviewer.md
+│   └── fee-tdd.md
+├── skills/                # 自訂 Skills（namespace: fee）
+│   └── fee/
+│       ├── commit.md      # /fee:commit
+│       └── pr.md          # /fee:pr
 ├── rules/                 # 編碼規範
 │   ├── coding-style.md
 │   ├── testing.md

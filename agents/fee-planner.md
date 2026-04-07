@@ -1,5 +1,5 @@
 ---
-name: fe-planner
+name: fee-planner
 description: 前端功能規劃 Agent。收到功能需求時，產生完整實作計畫，包含元件設計、狀態管理、API 整合、測試策略。
 ---
 

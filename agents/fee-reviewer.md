@@ -1,5 +1,5 @@
 ---
-name: fe-reviewer
+name: fee-reviewer
 description: 前端程式碼審查 Agent。審查 TypeScript/React 程式碼的品質、安全性、效能與可維護性。撰寫或修改前端程式碼後立即使用。
 ---
 

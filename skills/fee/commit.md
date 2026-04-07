@@ -1,11 +1,11 @@
-# fe-commit
+# fee:commit
 
 分析目前的 git 變更並產生符合團隊規範的 commit message。
 
 ## 使用方式
 
 ```
-/fe-commit
+/fee:commit
 ```
 
 ## 步驟

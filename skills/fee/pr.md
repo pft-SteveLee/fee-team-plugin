@@ -1,11 +1,11 @@
-# fe-pr
+# fee:pr
 
 從目前分支建立完整的 Pull Request，包含變更摘要和測試計畫。
 
 ## 使用方式
 
 ```
-/fe-pr
+/fee:pr
 ```
 
 ## 步驟
