@@ -1,3 +1,8 @@
+---
+name: fee:pr
+description: 從目前分支建立完整的 Pull Request。Use when user says "開 PR", "create PR", "幫我建立 pull request", or is ready to merge a feature branch.
+---
+
 # fee:pr
 
 從目前分支建立完整的 Pull Request，包含變更摘要和測試計畫。

@@ -1,3 +1,8 @@
+---
+name: fee:commit
+description: 分析 git 變更並產生符合 FEE Team 規範的 commit message。Use when user says "commit", "幫我 commit", "產生 commit message", or has staged/unstaged changes ready to commit.
+---
+
 # fee:commit
 
 分析目前的 git 變更並產生符合團隊規範的 commit message。
